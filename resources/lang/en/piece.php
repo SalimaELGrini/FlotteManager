@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'add_title'   => 'Add a Part',
+    'name'        => 'Name',
+    'reference'   => 'Reference',
+    'type'        => 'Type',
+    'description' => 'Description',
+    'save'        => 'Save',
+    'back'        => 'Back',
+    'edit_title'   => 'Edit Part',
+    'update'       => 'Update',
+    'list_title' => 'Parts List',
+    'Report' => 'Part Report',
+    'add' => 'Add Part',
+    'actions' => 'Actions',
+    'details' => 'Details',
+    'edit' => 'Edit',
+    'delete' => 'Delete',
+    'confirm_delete' => 'Delete this part?',
+    'not_found' => 'No part found for',
+    'search_placeholder' => 'Search by name...',
+    'details_title' => 'Piece Details',
+    'download_pdf' => 'Download PDF',
+    'info_title' => 'Piece Information',
+    'back_to_list' => 'Back to list',
+];

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('img/logoVehitrack.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/logoVehitrack.png') }}">
+    <title>{{ $custom_settings['app_name'] }}</title>
+
+    <!-- Font Awesome local (if you have downloaded it, sinon garder lien CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+
+    <!-- Styles CSS locaux -->
+    
+  
+
+    <!-- SweetAlert2 local -->
+    <link rel="stylesheet" href="{{ asset('assets/css/sweetalert2.min.css') }}">
+
+    <!-- Toastr CSS local -->
+    <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+   
+    <!-- JavaScript locaux -->
+
+ 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/dark-mode.js') }}"></script>
+
+    <!-- Lucide local -->
+   
+    
+
+    <script>
+      lucide.createIcons();
+    </script>
+
+</body>
+
+</html>
