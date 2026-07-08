@@ -80,9 +80,7 @@ php artisan migrate
 php artisan serve
 ```
 
-## 📸 Screenshots
-
-Add screenshots of:
+## 
 - Login page
 - Dashboard
 - Vehicle list
